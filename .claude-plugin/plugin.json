@@ -5,5 +5,10 @@
   "description": "Rewrite a draft prompt or coding task into a clear, agent-ready brief before you send it. Returns one rewritten prompt; never runs the task.",
   "author": { "name": "Prompt Enhancer", "url": "https://promptgenerator.tools/" },
   "license": "MIT",
-  "icon": "./assets/logo.png"
+  "icon": "./assets/logo.png",
+  "homepage": "https://promptgenerator.tools/",
+  "repository": "https://github.com/bitcompool/prompt-enhancer-claude-plugin",
+  "supportUrl": "https://promptgenerator.tools/feedback",
+  "privacyPolicyUrl": "https://promptgenerator.tools/privacy",
+  "termsOfServiceUrl": "https://promptgenerator.tools/terms"
 }
