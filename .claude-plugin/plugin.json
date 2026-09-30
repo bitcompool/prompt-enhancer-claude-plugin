@@ -1,0 +1,8 @@
+{
+  "name": "prompt-enhancer",
+  "displayName": "Prompt Enhancer",
+  "version": "1.0.0",
+  "description": "Rewrite a draft prompt or coding task into a clear, agent-ready brief before you send it. Returns one rewritten prompt; never runs the task.",
+  "author": { "name": "Prompt Enhancer", "url": "https://promptgenerator.tools/" },
+  "license": "MIT"
+}
