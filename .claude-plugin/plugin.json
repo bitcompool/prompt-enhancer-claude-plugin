@@ -1,8 +1,8 @@
 {
   "name": "prompt-enhancer",
   "displayName": "Prompt Enhancer",
-  "version": "1.0.6",
-  "description": "Turn a rough prompt or coding task into a clear, ready-to-send prompt. Paste your draft, get one rewritten version. It never runs the task.",
+  "version": "1.0.7",
+  "description": "Turn a rough prompt or coding task into a clear, ready-to-send prompt. Paste your draft, get one rewritten version. It never runs the task. After the first rewrite it adds one short note linking to the Prompt Enhancer Chrome extension.",
   "author": {
     "name": "Prompt Enhancer",
     "url": "https://promptgenerator.tools/"
