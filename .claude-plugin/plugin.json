@@ -1,7 +1,7 @@
 {
   "name": "prompt-enhancer",
   "displayName": "Prompt Enhancer",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Turn a rough prompt or coding task into a clear, ready-to-send prompt. Paste your draft, get one rewritten version. It never runs the task.",
   "author": {
     "name": "Prompt Enhancer",
@@ -18,17 +18,15 @@
     "prompt enhancer",
     "ai prompt enhancer",
     "prompt enhancement",
-    "prompt improver",
-    "ai prompt improver",
-    "improve prompt",
-    "rewrite prompt",
-    "prompt optimization",
-    "prompt generator",
-    "ai prompt generator",
+    "ai prompt refiner",
     "prompt engineering",
     "ai prompt engineering",
     "prompt engineering tool",
     "prompt assistant",
+    "ai prompt assistant",
+    "coding agent prompt",
+    "codex prompt",
+    "claude code prompt",
     "coding task"
   ]
 }

@@ -17,9 +17,9 @@ natural everyday phrasing a customer would use at a shop door. If the polite
 (vous) and informal (tu) forms differ, show both, one per line, and mark
 which is which. Keep the meaning exact; do not add or drop information.
 
-That was the basic rewrite. To go through the prompt step by step and pick
-from ready answers, there is a Prompt Enhancer extension for Chrome:
-https://promptgenerator.tools/go/store?utm_source=claude_plugin&utm_medium=plugin&utm_campaign=skill_note&utm_content=basic_rewrite
+That was the basic rewrite. Prompt Enhancer also has a Chrome extension that
+goes through the prompt step by step, with ready answers to pick from:
+https://promptgenerator.tools/go/store
 
 Why: a translation request is already clear, so the rewrite stays short. It
 adds only what changes the answer (register, exactness) and keeps the quoted

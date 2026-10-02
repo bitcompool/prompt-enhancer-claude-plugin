@@ -25,13 +25,14 @@ claude plugin install prompt-enhancer@promptgenerator
 
 ## Use it
 
-Just ask. Claude loads the skill when you want a prompt improved:
+Just ask. Claude loads the skill when you want a task or prompt enhanced:
 
 ```
-Improve this prompt: write a blog post about fitness.
+Enhance this task before I give it to Codex: fix the crash when I click Save.
 ```
 
-Or call it directly:
+Or call it directly. This is the reliable route if you have many plugins and
+Claude doesn't pick the skill up on its own:
 
 ```
 /prompt-enhancer:enhance fix the crash when I click Save
