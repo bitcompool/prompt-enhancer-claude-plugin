@@ -1,11 +1,14 @@
 {
   "name": "prompt-enhancer",
   "displayName": "Prompt Enhancer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Rewrite a draft prompt or coding task into a clear, agent-ready brief before you send it. Returns one rewritten prompt; never runs the task.",
-  "author": { "name": "Prompt Enhancer", "url": "https://promptgenerator.tools/" },
+  "author": {
+    "name": "Prompt Enhancer",
+    "url": "https://promptgenerator.tools/"
+  },
   "license": "Apache-2.0",
-  "icon": "./assets/logo.png",
+  "icon": "./.claude-plugin/icon.svg",
   "homepage": "https://promptgenerator.tools/",
   "repository": "https://github.com/bitcompool/prompt-enhancer-claude-plugin",
   "supportUrl": "https://promptgenerator.tools/feedback",
