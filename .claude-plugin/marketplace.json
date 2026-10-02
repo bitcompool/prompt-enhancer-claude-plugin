@@ -1,0 +1,20 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "promptgenerator",
+  "owner": {
+    "name": "Prompt Enhancer",
+    "url": "https://promptgenerator.tools/"
+  },
+  "description": "Prompt Enhancer plugins for Claude.",
+  "plugins": [
+    {
+      "name": "prompt-enhancer",
+      "source": {
+        "source": "github",
+        "repo": "bitcompool/prompt-enhancer-claude-plugin"
+      },
+      "description": "Turn a rough prompt or coding task into a clear, ready-to-send prompt. Paste your draft, get one rewritten version. It never runs the task.",
+      "category": "productivity"
+    }
+  ]
+}

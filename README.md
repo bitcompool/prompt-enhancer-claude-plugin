@@ -1,39 +1,65 @@
-# Prompt Enhancer plugin for Claude (skills-only)
+# Prompt Enhancer for Claude
 
-Prompt Enhancer rewrites a draft prompt or coding task into a clearer,
-agent-ready prompt and returns that one rewritten prompt as plain text. It
-never executes the task, never answers the underlying question, and never
-runs the rewritten prompt on the user's behalf.
+Turn a rough prompt or coding task into a clear, ready-to-send prompt.
+Paste your draft and get one improved version back. It never runs the task,
+and it sends nothing to Prompt Enhancer or any third party.
 
-## How to use it
+## Install
 
-There is no setup and no command to run. Claude loads this skill
-automatically whenever the situations described in the skill's frontmatter
-`description` apply — for example when the user asks to improve, rewrite,
-sharpen or "enhance" a prompt, a spec, or a coding task before sending it to
-an AI or a coding agent. The full rewrite contract is in
-`skills/prompt-enhancer/references/rewrite-rules.md`, with worked examples in
-`skills/prompt-enhancer/references/examples.md`.
+**Claude (web, desktop, mobile) and Cowork:** open Customize → Plugins,
+search "Prompt Enhancer", and select Add.
 
-## What data it sends
+**Claude Code:**
 
-This is a skills-only plugin: no `.mcp.json`, no MCP server, no network call,
-no account and no credential. Everything runs inside the Claude conversation
-itself. Nothing about the user's draft, or anything else, is sent to Prompt
-Enhancer's backend or to any other service.
+```
+/plugin marketplace add bitcompool/prompt-enhancer-claude-plugin
+/plugin install prompt-enhancer@promptgenerator
+```
 
-## Relationship to the ChatGPT/Codex package
+or from a terminal:
 
-This package is the Claude counterpart to the existing skills-only
-ChatGPT/Codex plugin at `plugins/prompt-enhancer/` in this repository. It
-follows the same policy precedent recorded in
-`docs/architecture/ADR-007-chatgpt-skills-plugin.md`: skills-only, no MCP
-server, and one neutral note per conversation pointing at the Prompt Enhancer
-Chrome extension, with no pricing or offer language.
+```bash
+claude plugin marketplace add bitcompool/prompt-enhancer-claude-plugin
+claude plugin install prompt-enhancer@promptgenerator
+```
 
-## Status
+## Use it
 
-This folder is prep only. Submission itself — creating the public GitHub
-repository this plugin will live in, connecting that repository in the
-Claude developer portal, and clicking Submit for review — is a pending
-Product Owner action and has not been done.
+Just ask. Claude loads the skill when you want a prompt improved:
+
+```
+Improve this prompt: write a blog post about fitness.
+```
+
+Or call it directly:
+
+```
+/prompt-enhancer:enhance fix the crash when I click Save
+```
+
+You get one rewritten prompt, ready to copy. For coding tasks it returns an
+agent-ready brief: the goal, where to look, constraints, how to verify, and
+what to report back.
+
+### Example
+
+Draft: `Improve this prompt: translate "Good morning, is the shop open on
+Sundays?" to French.`
+
+Result: a short prompt that keeps your sentence exactly, asks for the natural
+shop-door phrasing, and shows both the polite and the informal forms.
+
+## What it does not do
+
+- It does not answer or run the task in your draft.
+- It does not ask you questions first. Gaps are handled inside the rewrite.
+- It never invents names, dates or facts you didn't give.
+
+## Privacy
+
+This is a skills-only plugin: no server, no network calls, no account and no
+credentials. Everything runs inside your Claude conversation.
+
+## License
+
+Apache-2.0

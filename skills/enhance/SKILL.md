@@ -1,5 +1,5 @@
 ---
-name: prompt-enhancer
+name: enhance
 description: Use this when the user asks to improve, rewrite, sharpen, polish, tighten, "enhance" or "make better" a prompt, task, spec or instruction they are going to give to an AI or a coding agent (for example a Codex task like "fix the crash when I click Save" or "add auth to the API"), pastes a draft and asks to make it better, asks you to write a prompt for them, or asks to enhance a text so it can be judged whether it is a prompt. Returns one rewritten prompt and does not run it, even when the user also asks for the answer or for questions first. Do not use to do the coding task itself, to answer the user's underlying request, or to edit finished text that is not a prompt.
 ---
 
