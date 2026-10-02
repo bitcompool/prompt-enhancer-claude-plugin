@@ -1,7 +1,7 @@
 {
   "name": "prompt-enhancer",
   "displayName": "Prompt Enhancer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Rewrite a draft prompt or coding task into a clear, agent-ready brief before you send it. Returns one rewritten prompt; never runs the task.",
   "author": {
     "name": "Prompt Enhancer",
@@ -15,11 +15,20 @@
   "privacyPolicyUrl": "https://promptgenerator.tools/privacy",
   "termsOfServiceUrl": "https://promptgenerator.tools/terms",
   "keywords": [
-    "prompt",
     "prompt enhancer",
-    "rewrite prompt",
+    "ai prompt enhancer",
+    "prompt enhancement",
+    "prompt improver",
+    "ai prompt improver",
     "improve prompt",
+    "rewrite prompt",
+    "prompt optimization",
+    "prompt generator",
+    "ai prompt generator",
     "prompt engineering",
+    "ai prompt engineering",
+    "prompt engineering tool",
+    "prompt assistant",
     "coding task"
   ]
 }
