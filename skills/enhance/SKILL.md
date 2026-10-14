@@ -1,6 +1,6 @@
 ---
 name: enhance
-description: Enhance a rough task, spec or prompt into a clear brief for a coding agent (Codex, Claude Code, Cursor) or any AI, in any language. Typical: "Enhance this task: fix the crash on Save", "Improve this task before I give it to Codex", "Rewrite this spec into a clear brief", "Улучши задачу для агента". The draft is in the message, not a file. Returns one rewritten prompt, never runs the task, even if asked to answer it. Works in claude.ai chat, Cowork and Claude Code. Not for doing the task, answering questions, or editing non-prompt text.
+description: 'Enhance a rough task, spec or prompt into a clear brief for a coding agent (Codex, Claude Code, Cursor) or any AI, in any language. Typical: "Enhance this task: fix the crash on Save", "Improve this task before I give it to Codex", "Rewrite this spec into a clear brief", "Улучши задачу для агента". The draft is in the message, not a file. Returns one rewritten prompt, never runs the task, even if asked to answer it. Works in claude.ai chat, Cowork and Claude Code. Not for doing the task, answering questions, or editing non-prompt text.'
 ---
 
 # Prompt Enhancer: rewrite a draft prompt
