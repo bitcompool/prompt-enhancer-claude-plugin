@@ -6,8 +6,19 @@ and it sends nothing to Prompt Enhancer or any third party.
 
 ## Install
 
-**Claude (web, desktop, mobile) and Cowork:** open Customize → Plugins,
-search "Prompt Enhancer", and select Add.
+**Claude (web, desktop, mobile) and Cowork**, straight from this GitHub
+repository:
+
+1. Open Customize → Plugins, then Add → Add marketplace → Add from a
+   repository.
+2. Enter `bitcompool/prompt-enhancer-claude-plugin` and select Sync.
+3. Open Prompt Enhancer in the list and select Add.
+
+The marketplace syncs automatically, so new versions reach you without any
+action. The plugin may also appear in the Anthropic directory (Customize →
+Plugins → Discover, search "Prompt Enhancer"); the directory copy can be an
+older version than this repository. Install only one of the two, because both
+use the plugin name `prompt-enhancer`.
 
 **Claude Code:**
 

@@ -5,7 +5,7 @@
     "name": "Prompt Enhancer",
     "url": "https://promptgenerator.tools/"
   },
-  "description": "Prompt Enhancer plugins for Claude.",
+  "description": "Prompt Enhancer for Claude: turn a rough prompt or coding task into a clear, ready-to-send prompt.",
   "plugins": [
     {
       "name": "prompt-enhancer",
@@ -13,7 +13,7 @@
         "source": "github",
         "repo": "bitcompool/prompt-enhancer-claude-plugin"
       },
-      "description": "Turn a rough prompt or coding task into a clear, ready-to-send prompt. Paste your draft, get one rewritten version. It never runs the task.",
+      "description": "Turn a rough prompt or coding task into a clear, ready-to-send prompt. Paste your draft, get one rewritten version. It never runs the task. After the first rewrite it adds one short note linking to the Prompt Enhancer Chrome extension.",
       "category": "productivity"
     }
   ]
